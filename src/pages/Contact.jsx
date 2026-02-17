@@ -24,7 +24,7 @@ const Contact = () => {
       name: 'TikTok',
       handle: '@ganexa.team',
       url: 'https://tiktok.com/@ganexa.team',
-      color: 'from-gray-700 to-gray-900 dark:from-gray-600 dark:to-gray-800',
+      color: 'from-gray-900 to-black',
       hoverClass: 'hover:shadow-xl'
     }
   ]
