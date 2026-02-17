@@ -20,11 +20,11 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
+          <Link to="/" className="flex items-center gap-2 sm:gap-3 hover:opacity-80 transition-opacity">
             {/* Icon Logo */}
-            <img src="/logos/gi.png" alt="Ganexa Icon" className="h-10 w-10 object-contain" />
+            <img src="/logos/gi.png" alt="Ganexa Icon" className="h-8 w-8 sm:h-10 sm:w-10 object-contain" />
             {/* Typography Logo */}
-            <img src="/logos/gt.png" alt="Ganexa" className="h-8 object-contain hidden sm:block" />
+            <img src="/logos/gt.png" alt="Ganexa" className="h-6 sm:h-8 object-contain" />
           </Link>
 
           {/* Desktop Menu */}
