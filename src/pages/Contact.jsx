@@ -14,7 +14,7 @@ const Contact = () => {
     {
       icon: FaWhatsapp,
       name: 'WhatsApp',
-      handle: '+62 877-6076-8944 / +62 877-6076-9086',
+      handle: '+62 877-6076-9086',
       url: 'https://wa.me/6287760769086',
       color: 'from-green-400 to-green-600',
       hoverClass: 'hover:shadow-xl'
