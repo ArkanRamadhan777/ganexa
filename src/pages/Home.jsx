@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { HiSparkles, HiDeviceMobile, HiCurrencyDollar, HiAdjustments } from 'react-icons/hi'
 import Button from '../components/Button'
 import FeatureCard from '../components/FeatureCard'
-import ProjectCard from '../components/ProjectCard'
+// import ProjectCard from '../components/ProjectCard' // Hidden for now
 
 const Home = () => {
   const features = [
@@ -28,6 +28,7 @@ const Home = () => {
     }
   ]
 
+  /* Hidden for now
   const portfolioPreview = [
     {
       title: 'OSIS SMAN 1',
@@ -38,13 +39,9 @@ const Home = () => {
       title: 'Paskibra SMK Maju',
       category: 'Ekstrakulikuler',
       liveUrl: '#'
-    },
-    {
-      title: 'Rohis Al-Hikmah',
-      category: 'Kerohanian',
-      liveUrl: '#'
     }
   ]
+  */
 
   return (
     <div>
@@ -103,19 +100,19 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Portfolio Preview Section */}
+      {/* Portfolio Preview Section - Hidden for now
       <section className="py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-heading font-bold mb-4 text-primary">
-              Organisasi yang Udah Percaya Kami
+              Karya Terbaru Kami
             </h2>
             <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-              Dari OSIS, Paskibra, sampai Rohis dan PMR. Liat gimana kami bantu organisasi punya web keren!
+              Liat gimana kami bantu organisasi punya website yang keren dan profesional!
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12 max-w-4xl mx-auto">
             {portfolioPreview.map((project, index) => (
               <ProjectCard key={index} {...project} />
             ))}
@@ -128,6 +125,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      */}
 
       {/* CTA Closing Section */}
       <section className="py-20 px-4 bg-gradient-to-br from-primary/10 to-blue-500/10 relative overflow-hidden">
