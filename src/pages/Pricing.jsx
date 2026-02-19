@@ -52,16 +52,24 @@ const Pricing = () => {
       title: 'ADVANCED',
       price: 'Rp 2 Juta',
       features: [
-        'Semua fitur PRO',
-        'Form pendaftaran event online',
-        'Data pendaftar tersimpan otomatis',
-        'Export data ke Excel',
-        'Multi admin (hingga 5 akun)',
-        'Role akses (Super Admin / Admin / Editor)',
-        'Statistik jumlah pendaftar'
+        'Multi halaman lengkap (Home, Event, Detail Event, Struktur, Galeri, Kontak)',
+        'Featured / Highlight Event di homepage',
+        'Halaman Arsip Kegiatan & dokumentasi organisasi',
+        'Halaman Pengurus / Anggota (update tiap periode)',
+        'Dashboard Admin dengan secure authentication',
+        'CRUD Event & Berita / Pengumuman',
+        'Upload & kelola galeri kegiatan',
+        'Kelola pengurus & anggota organisasi',
+        'Ubah link pendaftaran (Google Form / eksternal)',
+        'Statistik sederhana (event, galeri, posting)',
+        'Multi Admin (maks 5 akun) dengan Role',
+        'Database terintegrasi (Supabase)',
+        'Storage gambar terkelola',
+        'SEO dasar & optimasi performa',
+        'Struktur scalable & setup deployment'
       ],
       recommended: false,
-      description: 'Sistem organisasi lengkap dengan manajemen event & pendaftaran. Estimasi: 4-8 minggu'
+      description: 'Sistem organisasi digital yang rapi, modern, dan siap dipakai mandiri. Estimasi: 4-6 minggu'
     }
   ]
 
