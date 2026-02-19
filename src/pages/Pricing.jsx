@@ -52,21 +52,13 @@ const Pricing = () => {
       title: 'ADVANCED',
       price: 'Rp 2 Juta',
       features: [
-        'Multi halaman lengkap (Home, Event, Detail Event, Struktur, Galeri, Kontak)',
-        'Featured / Highlight Event di homepage',
-        'Halaman Arsip Kegiatan & dokumentasi organisasi',
-        'Halaman Pengurus / Anggota (update tiap periode)',
-        'Dashboard Admin dengan secure authentication',
-        'CRUD Event & Berita / Pengumuman',
-        'Upload & kelola galeri kegiatan',
-        'Kelola pengurus & anggota organisasi',
-        'Ubah link pendaftaran (Google Form / eksternal)',
-        'Statistik sederhana (event, galeri, posting)',
-        'Multi Admin (maks 5 akun) dengan Role',
-        'Database terintegrasi (Supabase)',
-        'Storage gambar terkelola',
-        'SEO dasar & optimasi performa',
-        'Struktur scalable & setup deployment'
+        'Website multi halaman lengkap + arsip kegiatan',
+        'Dashboard Admin untuk kelola konten mandiri',
+        'CRUD Event, Berita, Galeri, Pengurus',
+        'Multi Admin (maks 5) dengan Role akses',
+        'Database & Storage terintegrasi',
+        'Statistik sederhana & SEO dasar',
+        'Setup deployment sampai online'
       ],
       recommended: false,
       description: 'Sistem organisasi digital yang rapi, modern, dan siap dipakai mandiri. Estimasi: 4-6 minggu'
