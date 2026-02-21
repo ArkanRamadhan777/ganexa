@@ -2,9 +2,9 @@ const Button = ({ children, variant = 'primary', href, onClick, className = '', 
   const baseStyles = "px-6 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 inline-block text-center"
   
   const variants = {
-    primary: "bg-primary hover:bg-blue-600 text-white shadow-lg",
-    outline: "border-2 border-primary text-primary hover:bg-primary hover:text-white",
-    ghost: "text-gray-600 dark:text-gray-300 hover:text-primary"
+    primary: "bg-gradient-to-r from-hyperspeed-cyan to-hyperspeed-blue hover:from-hyperspeed-blue hover:to-hyperspeed-purple text-white shadow-lg shadow-hyperspeed-cyan/30",
+    outline: "border-2 border-hyperspeed-cyan text-hyperspeed-cyan hover:bg-gradient-to-r hover:from-hyperspeed-cyan hover:to-hyperspeed-pink hover:text-white hover:border-transparent",
+    ghost: "text-white hover:text-hyperspeed-cyan"
   }
 
   const combinedClassName = `${baseStyles} ${variants[variant]} ${className}`

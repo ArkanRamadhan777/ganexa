@@ -2,31 +2,31 @@ import Button from './Button'
 
 const PricingCard = ({ title, price, features, description, recommended = false }) => {
   return (
-    <div className={`bg-white dark:bg-[#1a1d29] p-8 rounded-2xl border transition-all duration-300 card-hover ${
+    <div className={`backdrop-blur-xl bg-white/5 p-8 rounded-2xl border transition-all duration-300 card-hover ${
       recommended 
-        ? 'border-2 border-primary shadow-2xl lg:scale-105' 
-        : 'border border-gray-200 dark:border-gray-800'
+        ? 'border-2 border-hyperspeed-cyan shadow-2xl lg:scale-105' 
+        : 'border border-hyperspeed-cyan/30 dark:border-hyperspeed-purple/30'
     }`}>
       {recommended && (
         <div className="mb-4 text-center">
-          <span className="inline-block bg-primary text-white px-4 py-1 rounded-full text-xs font-black tracking-wider">
+          <span className="inline-block bg-gradient-to-r from-hyperspeed-cyan to-hyperspeed-pink text-white px-4 py-1 rounded-full text-xs font-black tracking-wider">
             RECOMMENDED
           </span>
         </div>
       )}
       
-      <h3 className={`text-2xl font-heading font-bold mb-2 text-center text-primary ${recommended ? 'text-3xl' : ''}`}>
+      <h3 className={`text-2xl font-heading font-bold mb-2 text-center text-white ${recommended ? 'text-3xl' : ''}`}>
         {title}
       </h3>
       
       {price && (
         <div className="text-center mb-4">
-          <span className="text-3xl font-bold text-gray-900 dark:text-white">{price}</span>
+          <span className="text-3xl font-bold text-white">{price}</span>
         </div>
       )}
       
       {description && (
-        <p className="text-sm text-gray-600 dark:text-gray-400 text-center mb-6 min-h-[40px]">
+        <p className="text-sm text-white/80 text-center mb-6 min-h-[40px]">
           {description}
         </p>
       )}
@@ -34,8 +34,8 @@ const PricingCard = ({ title, price, features, description, recommended = false 
       <ul className="space-y-3 mb-8">
         {features.map((feature, index) => (
           <li key={index} className="flex items-start">
-            <span className="text-primary mr-3 text-lg flex-shrink-0">✓</span>
-            <span className="text-gray-700 dark:text-gray-300 text-sm">{feature}</span>
+            <span className="text-hyperspeed-cyan mr-3 text-lg flex-shrink-0">✓</span>
+            <span className="text-white text-sm">{feature}</span>
           </li>
         ))}
       </ul>

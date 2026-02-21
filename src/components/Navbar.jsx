@@ -16,7 +16,7 @@ const Navbar = () => {
   const isActive = (path) => location.pathname === path
 
   return (
-    <nav className="sticky top-0 z-50 bg-[#0f1117]/95 backdrop-blur-md border-b border-gray-800 shadow-sm">
+    <nav className="fixed top-0 left-0 right-0 z-[100] bg-[#0f1117]/80 backdrop-blur-xl border-b border-hyperspeed-cyan/20 shadow-lg shadow-hyperspeed-cyan/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
@@ -35,8 +35,8 @@ const Navbar = () => {
                 to={link.path}
                 className={`font-medium transition-all duration-300 ${
                   isActive(link.path)
-                    ? 'text-primary font-semibold'
-                    : 'text-gray-300 hover:text-primary hover:scale-105'
+                    ? 'text-hyperspeed-cyan font-semibold'
+                    : 'text-white hover:text-hyperspeed-cyan hover:scale-105'
                 }`}
               >
                 {link.name}
@@ -47,7 +47,7 @@ const Navbar = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden text-white text-2xl focus:outline-none hover:text-primary transition-colors duration-300"
+            className="md:hidden text-white text-2xl focus:outline-none hover:text-hyperspeed-cyan transition-colors duration-300"
           >
             {isOpen ? <HiX /> : <HiMenu />}
           </button>
@@ -63,8 +63,8 @@ const Navbar = () => {
                 onClick={() => setIsOpen(false)}
                 className={`block py-2 font-medium transition-all duration-300 ${
                   isActive(link.path)
-                    ? 'text-primary font-semibold'
-                    : 'text-gray-300 hover:text-primary hover:translate-x-2'
+                    ? 'text-hyperspeed-cyan font-semibold'
+                    : 'text-white hover:text-hyperspeed-cyan hover:translate-x-2'
                 }`}
               >
                 {link.name}

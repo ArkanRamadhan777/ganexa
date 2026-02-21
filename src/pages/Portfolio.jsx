@@ -7,25 +7,25 @@ const Portfolio = () => {
       <div className="max-w-3xl mx-auto text-center">
         {/* Coming Soon Icon */}
         <div className="mb-8">
-          <div className="inline-flex items-center justify-center w-24 h-24 rounded-full bg-primary/10 text-primary">
+          <div className="inline-flex items-center justify-center w-24 h-24 rounded-full border-2 border-hyperspeed-cyan/50 text-hyperspeed-cyan">
             <HiClock className="w-12 h-12" />
           </div>
         </div>
 
         {/* Header */}
-        <h1 className="text-4xl md:text-6xl font-heading font-bold mb-6 text-primary">
+        <h1 className="text-4xl md:text-6xl font-heading font-bold mb-6 text-white">
           Coming Soon
         </h1>
-        <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto leading-relaxed mb-8">
+        <p className="text-lg text-white max-w-2xl mx-auto leading-relaxed mb-8">
           Halaman portfolio lagi dalam pengerjaan nih! Kami lagi nyiapin showcase website-website keren yang udah kami buat buat organisasi sekolah.
         </p>
 
         {/* Info Box */}
-        <div className="bg-white dark:bg-[#1a1d29] border border-gray-200 dark:border-gray-800 rounded-2xl p-8 mb-8">
-          <p className="text-gray-800 dark:text-gray-300 text-lg mb-4">
+        <div className="backdrop-blur-xl bg-white/5 border border-gray-200/50 dark:border-gray-800/50 rounded-2xl p-8 mb-8">
+          <p className="text-white text-lg mb-4">
             🚀 Sementara ini, kamu bisa langsung konsultasi kebutuhan website organisasi kamu.
           </p>
-          <p className="text-gray-600 dark:text-gray-400 mb-6">
+          <p className="text-white/90 mb-6">
             Kami siap bantu wujudin website impian organisasi kamu!
           </p>
           <Button 

@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import FloatingWhatsApp from './components/FloatingWhatsApp'
-import HyperspeedBackground from './components/HyperspeedBackground'
+import Hyperspeed from './components/Hyperspeed'
 import Home from './pages/Home'
 import Portfolio from './pages/Portfolio'
 import Pricing from './pages/Pricing'
@@ -12,9 +12,9 @@ function App() {
   return (
     <Router>
       <div className="min-h-screen flex flex-col dark relative">
-        <HyperspeedBackground />
+        <Hyperspeed />
         <Navbar />
-        <main className="flex-grow relative z-10">
+        <main className="flex-grow relative z-10 pt-16">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/portfolio" element={<Portfolio />} />

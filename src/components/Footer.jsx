@@ -8,11 +8,11 @@ const Footer = () => {
   ]
 
   return (
-    <footer className="relative z-20 bg-gray-50/95 dark:bg-[#1a1d29]/95 backdrop-blur-sm border-t border-gray-200 dark:border-gray-800 py-8">
+    <footer className="relative z-20 backdrop-blur-xl border-t border-hyperspeed-cyan/20 py-12 mt-20 bg-gradient-to-br from-hyperspeed-cyan/5 via-transparent to-hyperspeed-pink/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center space-y-6">
           {/* Logo */}
-          <img src="/logos/gt.png" alt="Ganexa" className="h-10 object-contain" />
+          <img src="/logos/gt.png" alt="Ganexa" className="h-10 object-contain drop-shadow-2xl filter brightness-110" />
 
           {/* Social Icons */}
           <div className="flex items-center space-x-6">
@@ -24,7 +24,7 @@ const Footer = () => {
                   href={social.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`text-2xl text-gray-400 dark:text-gray-500 transition-all duration-300 ${social.color} hover:scale-110`}
+                  className={`text-2xl text-white/70 transition-all duration-300 ${social.color} hover:scale-125 hover:drop-shadow-lg`}
                 >
                   <Icon />
                 </a>
@@ -33,7 +33,7 @@ const Footer = () => {
           </div>
 
           {/* Copyright */}
-          <p className="text-sm text-gray-500 dark:text-gray-600 text-center">
+          <p className="text-sm text-white/60 text-center">
             © 2026 Ganexa. All rights reserved.
           </p>
         </div>
