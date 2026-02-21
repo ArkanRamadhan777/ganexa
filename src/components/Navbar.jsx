@@ -16,7 +16,7 @@ const Navbar = () => {
   const isActive = (path) => location.pathname === path
 
   return (
-    <nav className="sticky top-0 z-50 bg-[#0f1117] backdrop-blur-md border-b border-gray-800 shadow-sm">
+    <nav className="sticky top-0 z-50 bg-[#0f1117]/95 backdrop-blur-md border-b border-gray-800 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}

@@ -32,37 +32,38 @@ const Pricing = () => {
       ],
       recommended: true,
       description: 'Website organisasi dengan struktur lengkap dan profesional. Estimasi: 2-3 minggu'
-    },
-    {
-      title: 'PRO',
-      price: 'Rp 1 Juta',
-      features: [
-        'Semua fitur STANDARD',
-        'Login Admin',
-        'Dashboard pengelolaan',
-        'Tambah/Edit/Hapus Event',
-        'Upload foto kegiatan',
-        'Database terintegrasi',
-        'Maksimal 2 akun admin'
-      ],
-      recommended: false,
-      description: 'Website dengan sistem login admin untuk pengelolaan mandiri. Estimasi: 3-4 minggu'
-    },
-    {
-      title: 'ADVANCED',
-      price: 'Rp 2 Juta',
-      features: [
-        'Website multi halaman lengkap + arsip kegiatan',
-        'Dashboard Admin untuk kelola konten mandiri',
-        'CRUD Event, Berita, Galeri, Pengurus',
-        'Multi Admin (maks 5) dengan Role akses',
-        'Database & Storage terintegrasi',
-        'Statistik sederhana & SEO dasar',
-        'Setup deployment sampai online'
-      ],
-      recommended: false,
-      description: 'Sistem organisasi digital yang rapi, modern, dan siap dipakai mandiri. Estimasi: 4-6 minggu'
     }
+    // PRO & ADVANCED packages temporarily hidden
+    // {
+    //   title: 'PRO',
+    //   price: 'Rp 1 Juta',
+    //   features: [
+    //     'Semua fitur STANDARD',
+    //     'Login Admin',
+    //     'Dashboard pengelolaan',
+    //     'Tambah/Edit/Hapus Event',
+    //     'Upload foto kegiatan',
+    //     'Database terintegrasi',
+    //     'Maksimal 2 akun admin'
+    //   ],
+    //   recommended: false,
+    //   description: 'Website dengan sistem login admin untuk pengelolaan mandiri. Estimasi: 3-4 minggu'
+    // },
+    // {
+    //   title: 'ADVANCED',
+    //   price: 'Rp 2 Juta',
+    //   features: [
+    //     'Website multi halaman lengkap + arsip kegiatan',
+    //     'Dashboard Admin untuk kelola konten mandiri',
+    //     'CRUD Event, Berita, Galeri, Pengurus',
+    //     'Multi Admin (maks 5) dengan Role akses',
+    //     'Database & Storage terintegrasi',
+    //     'Statistik sederhana & SEO dasar',
+    //     'Setup deployment sampai online'
+    //   ],
+    //   recommended: false,
+    //   description: 'Sistem organisasi digital yang rapi, modern, dan siap dipakai mandiri. Estimasi: 4-6 minggu'
+    // }
   ]
 
   return (
@@ -79,7 +80,7 @@ const Pricing = () => {
         </div>
 
         {/* Pricing Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mb-16 max-w-4xl mx-auto">
           {pricingPlans.map((plan, index) => (
             <PricingCard key={index} {...plan} />
           ))}

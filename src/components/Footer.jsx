@@ -8,7 +8,7 @@ const Footer = () => {
   ]
 
   return (
-    <footer className="bg-gray-50 dark:bg-[#1a1d29] border-t border-gray-200 dark:border-gray-800 py-8">
+    <footer className="relative z-20 bg-gray-50/95 dark:bg-[#1a1d29]/95 backdrop-blur-sm border-t border-gray-200 dark:border-gray-800 py-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center space-y-6">
           {/* Logo */}
