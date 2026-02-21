@@ -138,7 +138,7 @@ const Pricing = () => {
           <div className="bg-white dark:bg-[#1a1d29] border border-gray-200 dark:border-gray-800 rounded-xl p-6">
             <div className="text-3xl mb-3">⚡</div>
             <h4 className="font-heading font-bold mb-2 text-gray-900 dark:text-white">Proses Cepat</h4>
-            <p className="text-sm text-gray-600 dark:text-gray-400">Pengerjaan 1-8 minggu tergantung paket</p>
+            <p className="text-sm text-gray-600 dark:text-gray-400">Pengerjaan 1-3 minggu tergantung paket</p>
           </div>
           <div className="bg-white dark:bg-[#1a1d29] border border-gray-200 dark:border-gray-800 rounded-xl p-6">
             <div className="text-3xl mb-3">🔄</div>

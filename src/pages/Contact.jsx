@@ -38,7 +38,7 @@ const Contact = () => {
             Hubungi Kami
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Mau bikin website buat organisasi sekolah kamu? Yuk chat kami! Konsultasi gratis, ada 4 paket (BASIC hingga ADVANCED) mulai dari Rp 200K.
+            Mau bikin website buat organisasi sekolah kamu? Yuk chat kami! Konsultasi gratis, ada 2 paket (BASIC & STANDARD) mulai dari Rp 200K.
           </p>
         </div>
 
@@ -104,7 +104,7 @@ const Contact = () => {
             </h3>
             <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
               Biar konsultasi lebih efektif, siapkan info singkat tentang organisasi kamu (OSIS, Paskibra, PMR, dll), 
-              budget yang tersedia (BASIC Rp 200K, STANDARD Rp 500K, PRO Rp 1 Juta, atau ADVANCED Rp 2 Juta), 
+              budget yang tersedia (BASIC Rp 200K atau STANDARD Rp 500K), 
               dan fitur yang dibutuhin. Tapi tenang, kalau belum siap juga gapapa, kami bantu dari awal kok!
             </p>
           </div>

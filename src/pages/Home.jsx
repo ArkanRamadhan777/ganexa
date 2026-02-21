@@ -24,7 +24,7 @@ const Home = () => {
     {
       icon: HiAdjustments,
       title: 'Fitur Lengkap Organisasi',
-      description: 'Dari landing page sederhana sampai sistem admin lengkap dengan database. Ada 4 paket sesuai kebutuhan!'
+      description: 'Dari landing page sederhana sampai website multi halaman profesional. Ada 2 paket sesuai kebutuhan!'
     }
   ]
 
@@ -136,7 +136,7 @@ const Home = () => {
             Siap Bikin Organisasi Kamu Makin Profesional?
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
-            Konsultasi gratis! Pilih dari 4 paket (BASIC, STANDARD, PRO, ADVANCED) sesuai kebutuhan organisasi kamu. Proses cepat 1-8 minggu tergantung paket.
+            Konsultasi gratis! Pilih paket BASIC (Rp 200K) atau STANDARD (Rp 500K) sesuai kebutuhan organisasi kamu. Proses cepat 1-3 minggu!
           </p>
           <Button 
             variant="primary"
