@@ -4,28 +4,28 @@ import Button from '../components/Button'
 const Portfolio = () => {
   const projects = [
     {
-      image: '/alpha-project.png',
+      image: 'alpha-project.png',
       title: 'Alpha',
       category: 'Basic',
-      liveUrl: 'alpha.ganexa.me'
+      liveUrl: 'https://alpha.ganexa.me'
     },
     {
-      image: '/beta-project.png',
+      image: 'beta-project.png',
       title: 'Beta',
       category: 'Standard',
-      liveUrl: 'beta.ganexa.me'
+      liveUrl: 'https://beta.ganexa.me'
     },
     {
-      image: '/delta-project.png',
+      image: 'delta-project.png',
       title: 'Delta',
       category: 'Basic',
-      liveUrl: 'delta.ganexa.me'
+      liveUrl: 'https://delta.ganexa.me'
     },
     {
-      image: '/gamma-project.png',
+      image: 'gamma-project.png',
       title: 'Gamma',
       category: 'Standard',
-      liveUrl: 'gamma.ganexa.me'
+      liveUrl: 'https://gamma.ganexa.me'
     }
   ]
 

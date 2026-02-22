@@ -30,16 +30,16 @@ const Home = () => {
 
   const portfolioPreview = [
     {
-      image: '/alpha-project.png',
+      image: 'alpha-project.png',
       title: 'Alpha',
       category: 'Basic',
-      liveUrl: 'alpha.ganexa.me'
+      liveUrl: 'https://alpha.ganexa.me'
     },
     {
-      image: '/beta-project.png',
+      image: 'beta-project.png',
       title: 'Beta',
       category: 'Standard',
-      liveUrl: 'beta.ganexa.me'
+      liveUrl: 'https://beta.ganexa.me'
     }
   ]
 
