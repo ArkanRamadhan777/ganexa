@@ -33,13 +33,13 @@ const Home = () => {
       image: '/alpha-project.png',
       title: 'Alpha',
       category: 'Basic',
-      liveUrl: '#'
+      liveUrl: 'alpha.ganexa.me'
     },
     {
       image: '/beta-project.png',
       title: 'Beta',
       category: 'Standard',
-      liveUrl: '#'
+      liveUrl: 'beta.ganexa.me'
     }
   ]
 
