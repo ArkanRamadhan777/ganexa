@@ -1,32 +1,61 @@
-import { HiClock } from 'react-icons/hi'
+import ProjectCard from '../components/ProjectCard'
 import Button from '../components/Button'
 
 const Portfolio = () => {
+  const projects = [
+    {
+      image: '/alpha-project.png',
+      title: 'Alpha',
+      category: 'Basic',
+      liveUrl: '#'
+    },
+    {
+      image: '/beta-project.png',
+      title: 'Beta',
+      category: 'Standard',
+      liveUrl: '#'
+    },
+    {
+      image: '/delta-project.png',
+      title: 'Delta',
+      category: 'Basic',
+      liveUrl: '#'
+    },
+    {
+      image: '/gamma-project.png',
+      title: 'Gamma',
+      category: 'Standard',
+      liveUrl: '#'
+    }
+  ]
+
   return (
-    <div className="min-h-screen py-20 px-4 flex items-center justify-center">
-      <div className="max-w-3xl mx-auto text-center">
-        {/* Coming Soon Icon */}
-        <div className="mb-8">
-          <div className="inline-flex items-center justify-center w-24 h-24 rounded-full border-2 border-hyperspeed-cyan/50 text-hyperspeed-cyan">
-            <HiClock className="w-12 h-12" />
-          </div>
+    <div className="min-h-screen py-20 px-4">
+      <div className="max-w-7xl mx-auto">
+        {/* Header */}
+        <div className="text-center mb-16">
+          <h1 className="text-4xl md:text-6xl font-heading font-bold mb-6 text-white">
+            Portfolio Kami
+          </h1>
+          <p className="text-lg text-white max-w-2xl mx-auto leading-relaxed mb-8">
+            Ini dia beberapa website yang udah kami buat buat organisasi sekolah. Dari paket Basic sampai Standard, semua dikerjain dengan profesional!
+          </p>
         </div>
 
-        {/* Header */}
-        <h1 className="text-4xl md:text-6xl font-heading font-bold mb-6 text-white">
-          Coming Soon
-        </h1>
-        <p className="text-lg text-white max-w-2xl mx-auto leading-relaxed mb-8">
-          Halaman portfolio lagi dalam pengerjaan nih! Kami lagi nyiapin showcase website-website keren yang udah kami buat buat organisasi sekolah.
-        </p>
+        {/* Projects Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mb-12">
+          {projects.map((project, index) => (
+            <ProjectCard key={index} {...project} />
+          ))}
+        </div>
 
-        {/* Info Box */}
-        <div className="backdrop-blur-xl bg-white/5 border border-gray-200/50 dark:border-gray-800/50 rounded-2xl p-8 mb-8">
+        {/* CTA Section */}
+        <div className="backdrop-blur-xl bg-white/5 border border-gray-200/50 dark:border-gray-800/50 rounded-2xl p-8 text-center mt-16">
           <p className="text-white text-lg mb-4">
-            🚀 Sementara ini, kamu bisa langsung konsultasi kebutuhan website organisasi kamu.
+            🚀 Mau organisasi kamu punya website sekeren ini?
           </p>
           <p className="text-white/90 mb-6">
-            Kami siap bantu wujudin website impian organisasi kamu!
+            Konsultasi gratis! Pilih paket BASIC atau STANDARD sesuai kebutuhan kamu.
           </p>
           <Button 
             variant="primary"

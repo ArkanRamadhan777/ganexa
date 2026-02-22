@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { HiSparkles, HiDeviceMobile, HiCurrencyDollar, HiAdjustments } from 'react-icons/hi'
 import Button from '../components/Button'
 import FeatureCard from '../components/FeatureCard'
-// import ProjectCard from '../components/ProjectCard' // Hidden for now
+import ProjectCard from '../components/ProjectCard'
 
 const Home = () => {
   const features = [
@@ -28,20 +28,20 @@ const Home = () => {
     }
   ]
 
-  /* Hidden for now
   const portfolioPreview = [
     {
-      title: 'OSIS SMAN 1',
-      category: 'Organisasi Siswa',
+      image: '/alpha-project.png',
+      title: 'Alpha',
+      category: 'Basic',
       liveUrl: '#'
     },
     {
-      title: 'Paskibra SMK Maju',
-      category: 'Ekstrakulikuler',
+      image: '/beta-project.png',
+      title: 'Beta',
+      category: 'Standard',
       liveUrl: '#'
     }
   ]
-  */
 
   return (
     <div>
@@ -91,14 +91,14 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Portfolio Preview Section - Hidden for now
+      {/* Portfolio Preview Section */}
       <section className="py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-heading font-bold mb-4 text-primary">
+            <h2 className="text-3xl md:text-5xl font-heading font-bold mb-4 text-white">
               Karya Terbaru Kami
             </h2>
-            <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+            <p className="text-white/90 max-w-2xl mx-auto">
               Liat gimana kami bantu organisasi punya website yang keren dan profesional!
             </p>
           </div>
@@ -116,7 +116,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-      */}
 
       {/* CTA Closing Section */}
       <section className="py-20 px-4 relative overflow-hidden">
